@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const {User} = require('./modelUser');
-const {Post} = require('./modelPost');
+const {User} = require('./model/modelUser');
+const {Post} = require('./model/modelPost');
 
 //const bodyParser = require('body-parser');
 //const route = require('./route/Route');
