@@ -5,8 +5,8 @@ const {Post} = require('./modelPost');
 
 //const bodyParser = require('body-parser');
 //const route = require('./route/Route');
-const mongoose = require('mongoose');
-const DB_URI = 'mongodb://localhost:27017/MiniMarket'
+//const mongoose = require('mongoose');
+//const DB_URI = 'mongodb://localhost:27017/MiniMarket'
 
 
 //app.use(express.json());
@@ -15,7 +15,7 @@ const DB_URI = 'mongodb://localhost:27017/MiniMarket'
 //app.use(route);
 
 // Conexión
-mongoose.connect(DB_URI,
+/*mongoose.connect(DB_URI,
     {
         useNewUrlParser: true, 
         useUnifiedTopology: true,
@@ -27,9 +27,6 @@ mongoose.connect(DB_URI,
         else{
             console.log('*** CONEXIÓN CORRECTA ***');
         }
-    });
-
-
-    
+    });*/
 
 module.exports = app;
